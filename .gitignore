@@ -1,0 +1,13 @@
+# Ignore SQLite database files
+*.db
+*.db-journal
+
+# Bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment and IDE
+.env
+.vscode/
+.idea/

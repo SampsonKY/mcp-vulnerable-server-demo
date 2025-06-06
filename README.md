@@ -1,5 +1,7 @@
 # Insecure MCP Demo
 
+[![smithery badge](https://smithery.ai/badge/@SampsonKY/mcp-vulnerable-server-demo)](https://smithery.ai/server/@SampsonKY/mcp-vulnerable-server-demo)
+
 ## Overview
 This project demonstrates a vulnerable MCP server and multiple clients, including a proof-of-concept attack client and also a good client. It is designed for educational purposes to showcase potential security vulnerabilities in MCP server.
 
@@ -25,6 +27,16 @@ This project demonstrates a vulnerable MCP server and multiple clients, includin
    - **Vulnerability:** Leaks sensitive environment variables (e.g., secrets, API keys).
 
 ## How to Run
+
+### Installing via Smithery
+
+To install mcp-vulnerable-server-demo for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@SampsonKY/mcp-vulnerable-server-demo):
+
+```bash
+npx -y @smithery/cli install @SampsonKY/mcp-vulnerable-server-demo --client claude
+```
+
+### Installing Manually
 ### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
